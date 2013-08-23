@@ -7,17 +7,23 @@
 !LICENSE
 !checkstyle.xml
 !pom.xml
+!build.gradle
+!settings.gradle
 
-!library/
-library/*
-!library/src/
-!library/res/
-!library/AndroidManifest.xml
-!library/pom.xml
+!messagebar/
+messagebar/*
+!messagebar/src/
+!messagebar/res/
+!messagebar/AndroidManifest.xml
+!messagebar/pom.xml
+!messagebar/build.gradle
 
-!samples/
-samples/*
-!samples/src/
-!samples/res/
-!samples/AndroidManifest.xml
-!samples/pom.xml
+!messagebar-samples/
+messagebar-samples/*
+!messagebar-samples/src/
+!messagebar-samples/res/
+!messagebar-samples/AndroidManifest.xml
+!messagebar-samples/pom.xml
+!messagebar-samples/build.gradle
+
+.DS_store
