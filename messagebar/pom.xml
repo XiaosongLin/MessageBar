@@ -6,25 +6,19 @@
     <parent>
         <groupId>net.simonvt</groupId>
         <artifactId>messagebar-parent</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>messagebar-sample</artifactId>
-    <name>MessageBar Sample</name>
-    <packaging>apk</packaging>
+    <artifactId>messagebar</artifactId>
+    <name>MessageBar</name>
+    <packaging>apklib</packaging>
 
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.simonvt</groupId>
-            <artifactId>messagebar</artifactId>
-            <version>${project.version}</version>
-            <type>apklib</type>
         </dependency>
     </dependencies>
 
